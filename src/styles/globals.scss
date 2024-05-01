@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease 200ms;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Manrope, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .donate-btn{
+    background-color: #ed1068;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #ed1068;
+    font-family: fredoka;
+
+    &:hover{
+        background-color: transparent;
+        color: #ed1068;
+    }
+  }
